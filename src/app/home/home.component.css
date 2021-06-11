@@ -1,0 +1,68 @@
+.Home
+{
+    background-color: #1abc9c;
+}
+
+.Home .masthead-heading
+{
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+@media (min-width: 992px){
+.Home .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+}
+
+.masthead-avatar
+{   
+    width: 15rem;
+    margin-bottom: 3rem !important;
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (min-width: 992px){
+.Home {
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+}
+}
+
+.icons i
+{
+    
+    Color: white;
+    font-size: 2rem;
+    margin: 1.25rem 0 1.5rem;
+}
+
+.icons .leftline
+{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-color: white !important;
+    
+}
+
+.icons .rightline
+{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+    border-color: white !important;
+}
+
+@media (min-width: 992px){
+.Home p {
+    font-size: 1.5rem;
+}
+}
